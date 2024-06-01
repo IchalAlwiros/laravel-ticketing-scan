@@ -64,6 +64,11 @@ class UserControllers extends Controller
         ]);
 
 
+        //check if phone is not empty
+        if ($request->phone) {
+            $user->update(['phone' => $request->phone]);
+        }
+
         if ($request->password) {
             $user->update([
                 'password' => Hash::make($request->password),
