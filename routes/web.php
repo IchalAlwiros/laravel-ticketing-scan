@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\UserControllers;
 use Illuminate\Support\Facades\Route;
 
@@ -15,5 +16,6 @@ Route::middleware(['auth'])->group(function(){
 
 
     Route::resource('users', UserControllers::class);
+    Route::resource('categories', CategoryController::class);
 });
 

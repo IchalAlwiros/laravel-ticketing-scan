@@ -20,6 +20,13 @@
                     <span>Users</span>
                 </a>
             </li>
+
+            <li class="nav-item">
+                <a href="{{route('categories.index')}}"class="nav-link">
+                    <i class="fas fa-columns"></i>
+                    <span>Category</span>
+                </a>
+            </li>
             {{-- <li class="nav-item dropdown">
                 <a href="#"
                     class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
