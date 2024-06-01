@@ -27,6 +27,14 @@
                     <span>Category</span>
                 </a>
             </li>
+
+
+            <li class="nav-item">
+                <a href="{{route('products.index')}}"class="nav-link">
+                    <i class="fas fa-columns"></i>
+                    <span>Product</span>
+                </a>
+            </li>
             {{-- <li class="nav-item dropdown">
                 <a href="#"
                     class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
